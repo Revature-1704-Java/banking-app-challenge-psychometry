@@ -23,7 +23,6 @@ public class Account {
             temp+=entry.getValue().getAmount();
         }
         balance=temp;
-
     }
     public int getId(){
         return this.id;
